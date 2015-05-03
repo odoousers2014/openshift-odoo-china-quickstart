@@ -21,7 +21,7 @@ if [ ! -f "$OPENSHIFT_DATA_DIR/odoo-${ODOO_VERSION}-${ODOO_TIMESTAMP}.zip" ]; th
   unzip -o $OPENSHIFT_DATA_DIR/odoo-${ODOO_VERSION}-${ODOO_TIMESTAMP}.zip
 
   rm -f $OPENSHIFT_DATA_DIR/odoo
-  ln -s $OPENSHIFT_DATA_DIR/odoo-${ODOO_VERSION} $OPENSHIFT_DATA_DIR/odoo
+  ln -s $OPENSHIFT_DATA_DIR/openshift-odoo-china-master $OPENSHIFT_DATA_DIR/odoo
 
   #rm -f $OPENSHIFT_REPO_DIR/requirements.txt
   #ln -s $OPENSHIFT_DATA_DIR/odoo/requirements.txt $OPENSHIFT_REPO_DIR/requirements.txt
