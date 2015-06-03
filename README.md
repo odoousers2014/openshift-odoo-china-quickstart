@@ -15,7 +15,7 @@ Then, merge and push this repo into your new app. Please be patient, this operat
 ```
 $ cd openerp/
 $ git remote add upstream https://github.com/buggy778/openshift-odoo-china-quickstart.git
-$ git pull -s recursive -X theirs upstream 8.0
+$ git pull -s recursive -X theirs upstream master
 $ git push
 ```
 
