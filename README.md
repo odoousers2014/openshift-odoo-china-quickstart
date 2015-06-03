@@ -14,19 +14,19 @@ Then, merge and push this repo into your new app. Please be patient, this operat
 
 ```
 $ cd openerp/
-$ git remote add upstream https://github.com/amon-ra/openshift-odoo-quickstart.git
+$ git remote add upstream https://github.com/buggy778/openshift-odoo-china-quickstart.git
 $ git pull -s recursive -X theirs upstream 8.0
 $ git push
 ```
 
 That's it!
 
-Now put your own modules in addons dir and do another 
+Now put your own modules in addons dir and do another
 ```
 git push
 ```
 
-Now put your own modules in addons dir and do another 
+Now put your own modules in addons dir and do another
 ```
 git push
 ```
