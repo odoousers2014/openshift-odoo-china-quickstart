@@ -1,7 +1,7 @@
 #!/bin/bash
 ODOO_VERSION=8.0
 ODOO_TIMESTAMP=20150603-231234
-ODOO_URL=https://github.com/buggy778/openshift-odoo-china/archive/$ODOO_VERSION.zip
+ODOO_URL=https://github.com/buggy778/odoo-cn/archive/$ODOO_VERSION.zip
 
 source ${OPENSHIFT_PYTHON_DIR}/virtenv/bin/activate
 pip install -r $OPENSHIFT_REPO_DIR/requirements.txt

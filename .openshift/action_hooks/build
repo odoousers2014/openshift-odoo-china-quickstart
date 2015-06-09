@@ -2,7 +2,7 @@
 
 ODOO_VERSION=8.0
 ODOO_TIMESTAMP=20150603-231234
-ODOO_URL=https://github.com/buggy778/openshift-odoo-china/archive/$ODOO_VERSION.zip
+ODOO_URL=https://github.com/buggy778/odoo-cn/archive/$ODOO_VERSION.zip
 
 cp ${OPENSHIFT_REPO_DIR}/wkhtmltopdf/wkhtmltopdf ${OPENSHIFT_PYTHON_DIR}/virtenv/bin
 cp ${OPENSHIFT_REPO_DIR}/wkhtmltopdf/lib/* ${OPENSHIFT_PYTHON_DIR}/virtenv/bin
